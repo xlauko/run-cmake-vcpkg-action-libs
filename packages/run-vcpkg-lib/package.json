@@ -4,12 +4,12 @@
 	"description": "vcpkg runner for continuous integration systems.",
 	"repository": {
 		"type": "git",
-		"url": "ssh://git@github.com:lukka/run-cmake-vcpkg-action-libs.git",
+		"url": "ssh://git@github.com:xlauko/run-cmake-vcpkg-action-libs.git",
 		"directory": "packages/run-vcpkg-lib"
 	},
 	"publishConfig": {
 		"access": "public",
-		"registry": "https://npm.pkg.github.com/lukka"
+		"registry": "https://npm.pkg.github.com/xlauko"
 	},
 	"author": "Luca Cappa (https://github.com/lukka)",
 	"license": "MIT",
