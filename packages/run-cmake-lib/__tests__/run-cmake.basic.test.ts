@@ -6,7 +6,7 @@ import * as globals from '../src/cmake-globals'
 import * as testutils from '../../run-vcpkg-lib/__tests__/utils'
 import * as path from 'path'
 import * as mock from '../../run-vcpkg-lib/__tests__/mocks'
-import * as utils from '@lukka/base-util-lib';
+import * as utils from '@xlauko/base-util-lib';
 
 // Arrange.
 const isWin = process.platform === "win32";

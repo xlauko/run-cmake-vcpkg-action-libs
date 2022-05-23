@@ -4,11 +4,11 @@
 
 import * as cmakeutils from '../src/cmake-utils'
 import * as cmakerunner from '../src/cmake-runner'
-import * as baseutillib from '@lukka/base-util-lib'
+import * as baseutillib from '@xlauko/base-util-lib'
 import path from 'path'
 import * as mock from '../../run-vcpkg-lib/__tests__/mocks'
 import * as testutils from '../../run-vcpkg-lib/__tests__/utils'
-import { BaseLib } from '@lukka/base-lib';
+import { BaseLib } from '@xlauko/base-lib';
 
 const baseLib: BaseLib = mock.exportedBaselib;
 const baseUtilLib: baseutillib.BaseUtilLib = new baseutillib.BaseUtilLib(baseLib);

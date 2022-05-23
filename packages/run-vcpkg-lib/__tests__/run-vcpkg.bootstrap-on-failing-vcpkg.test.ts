@@ -7,7 +7,7 @@ import * as testutils from './utils'
 import * as path from 'path'
 import * as mock from './mocks'
 import * as assert from 'assert'
-import * as utils from '@lukka/base-util-lib';
+import * as utils from '@xlauko/base-util-lib';
 
 // Arrange.
 const isWin = process.platform === "win32";

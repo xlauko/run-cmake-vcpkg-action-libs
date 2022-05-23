@@ -7,7 +7,7 @@ import * as os from 'os';
 import * as path from 'path';
 import * as del from 'del'
 import { performance } from 'perf_hooks'
-import * as baselib from "@lukka/base-lib"
+import * as baselib from "@xlauko/base-lib"
 import * as fastglob from "fast-glob"
 
 export class BaseUtilLib {
@@ -147,7 +147,7 @@ export class BaseUtilLib {
 
   // Force 'name' env variable to have value of 'value'.
   public setEnvVar(name: string, value: string): void {
-    // Set variable both as env var and as step variable, which might be re-used in subseqeunt steps.  
+    // Set variable both as env var and as step variable, which might be re-used in subseqeunt steps.
     process.env[name] = value;
     this.baseLib.setVariable(name, value);
     this.baseLib.debug(`Set variable and the env variable '${name}' to value '${value}'.`);

@@ -2,13 +2,13 @@
 // Released under the term specified in file LICENSE.txt
 // SPDX short identifier: MIT
 
-import * as baselib from '@lukka/base-lib';
-import * as baseutillib from '@lukka/base-util-lib';
+import * as baselib from '@xlauko/base-lib';
+import * as baseutillib from '@xlauko/base-util-lib';
 import * as path from 'path';
 import * as cmakeglobals from './cmake-globals';
 import { using } from "using-statement";
 import * as cmakeutil from './cmake-utils'
-import * as runvcpkglib from '@lukka/run-vcpkg-lib'
+import * as runvcpkglib from '@xlauko/run-vcpkg-lib'
 
 export class CMakeRunner {
   public static readonly configurePresetDefault = "[`--preset`, `$[env.CONFIGURE_PRESET_NAME]`]";
@@ -169,7 +169,7 @@ export class CMakeRunner {
       }
     });
 
-    // 
+    //
     this.baseLib.debug(`Generating project files with CMake ...`);
     await this.baseUtils.wrapOp("Generate project files with CMake",
       async () => await this.launchCMake(cmake, this.cmakeSourceDir, this.logFilesCollector));

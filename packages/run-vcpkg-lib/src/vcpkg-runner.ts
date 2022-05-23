@@ -3,10 +3,10 @@
 // SPDX short identifier: MIT
 
 import * as path from 'path';
-import * as baselib from '@lukka/base-lib';
+import * as baselib from '@xlauko/base-lib';
 import * as globals from './vcpkg-globals';
 import * as vcpkgutils from './vcpkg-utils';
-import * as baseutillib from '@lukka/base-util-lib';
+import * as baseutillib from '@xlauko/base-util-lib';
 import { using } from "using-statement";
 
 export class VcpkgRunner {
@@ -207,7 +207,7 @@ export class VcpkgRunner {
   private setOutputs(): void {
     // Set the RUNVCPKG_VCPKG_ROOT value, it could be re-used later by run-cmake.
     this.baseUtils.setVariableVerbose(globals.RUNVCPKG_VCPKG_ROOT, this.vcpkgDestPath)
-    // Override the VCPKG_ROOT value, it must point to this vcpkg instance, it is used by 
+    // Override the VCPKG_ROOT value, it must point to this vcpkg instance, it is used by
     // any subsequent invocation of the vcpkg executable.
     this.baseUtils.setVariableVerbose(globals.VCPKGROOT, this.vcpkgDestPath);
 

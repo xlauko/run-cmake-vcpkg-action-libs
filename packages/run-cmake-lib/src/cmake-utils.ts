@@ -3,8 +3,8 @@
 // SPDX short identifier: MIT
 
 import * as cmakeutil from 'path';
-import * as baselib from '@lukka/base-lib';
-import * as baseutillib from '@lukka/base-util-lib';
+import * as baselib from '@xlauko/base-lib';
+import * as baseutillib from '@xlauko/base-util-lib';
 
 export async function injectEnvVariables(baseUtils: baseutillib.BaseUtilLib, vcpkgRoot: string, args: string[]): Promise<void> {
   // Search for vcpkg tool and run it

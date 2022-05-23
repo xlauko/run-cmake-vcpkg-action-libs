@@ -2,7 +2,7 @@
 // Released under the term specified in file LICENSE.txt
 // SPDX short identifier: MIT
 
-import * as baseutillib from '@lukka/base-util-lib';
+import * as baseutillib from '@xlauko/base-util-lib';
 import * as actionlibs from '../src/action-lib';
 import * as lib from '../src/action-lib'
 

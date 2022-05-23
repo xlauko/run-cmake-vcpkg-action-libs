@@ -3,9 +3,9 @@
 // SPDX short identifier: MIT
 
 import * as lib from '../src/action-lib'
-import * as baselib from '@lukka/base-lib'
+import * as baselib from '@xlauko/base-lib'
 import * as core from '@actions/core'
-import * as baseutillib from '@lukka/base-util-lib'
+import * as baseutillib from '@xlauko/base-util-lib'
 import * as fs from 'fs';
 import * as path from 'path'
 import * as os from 'os'

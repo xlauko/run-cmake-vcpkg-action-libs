@@ -7,9 +7,9 @@
 // How to mock methods in detail: https://stackoverflow.com/questions/50091438/jest-how-to-mock-one-specific-method-of-a-class
 // How to mock an exported function: https://github.com/facebook/jest/issues/936#issuecomment-630155771
 
-import * as baselib from '@lukka/base-lib';
-import * as baseutillib from '@lukka/base-util-lib';
-import { ActionToolRunner } from '@lukka/action-lib/src';
+import * as baselib from '@xlauko/base-lib';
+import * as baseutillib from '@xlauko/base-util-lib';
+import { ActionToolRunner } from '@xlauko/action-lib/src';
 import { ExecOptions } from 'child_process';
 import * as testutils from './utils'
 import * as assert from 'assert'
@@ -74,9 +74,9 @@ let lastOperationName: string = "";
 export let baselibInfo = jest.fn();
 export let baselibwriteFile = jest.fn();
 
-import * as actionLib from '@lukka/action-lib';
+import * as actionLib from '@xlauko/action-lib';
 
-jest.mock('@lukka/action-lib', jest.fn().mockImplementation(() => {
+jest.mock('@xlauko/action-lib', jest.fn().mockImplementation(() => {
   return {
     ActionLib: jest.fn().mockImplementation(() => {
       return {
