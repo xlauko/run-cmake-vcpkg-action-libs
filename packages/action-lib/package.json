@@ -1,6 +1,6 @@
 {
   "name": "@xlauko/action-lib",
-  "version": "2.0.6-alpha.0",
+  "version": "2.0.6-alpha.1",
   "description": "Implementation of the continuous integration abstraction layer for GitHub Actions.",
   "repository": {
     "type": "git",
@@ -43,8 +43,8 @@
     "@types/shelljs": "^0.8.6",
     "@typescript-eslint/eslint-plugin": "^4.29.2",
     "@typescript-eslint/parser": "^4.29.2",
-    "@xlauko/base-lib": "^2.0.6-alpha.0",
-    "@xlauko/base-util-lib": "^2.0.6-alpha.0",
+    "@xlauko/base-lib": "^2.0.6-alpha.1",
+    "@xlauko/base-util-lib": "^2.0.6-alpha.1",
     "adm-zip": "^0.4.13",
     "del": "^5.1.0",
     "eslint": "^6.7.2",
