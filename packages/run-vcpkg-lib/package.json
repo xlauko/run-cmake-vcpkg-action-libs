@@ -1,6 +1,6 @@
 {
 	"name": "@xlauko/run-vcpkg-lib",
-	"version": "2.0.5",
+	"version": "2.0.6-alpha.0",
 	"description": "vcpkg runner for continuous integration systems.",
 	"repository": {
 		"type": "git",
@@ -21,15 +21,15 @@
 		"test": "jest"
 	},
 	"dependencies": {
-		"@xlauko/action-lib": "^2.0.5",
-		"@xlauko/base-lib": "^2.0.5",
-		"@xlauko/base-util-lib": "^2.0.5",
 		"@types/adm-zip": "^0.4.32",
 		"@types/follow-redirects": "^1.8.0",
 		"@types/q": "^1.5.1",
 		"@types/shelljs": "^0.8.6",
 		"@typescript-eslint/eslint-plugin": "^4.29.2",
 		"@typescript-eslint/parser": "^4.29.2",
+		"@xlauko/action-lib": "^2.0.6-alpha.0",
+		"@xlauko/base-lib": "^2.0.6-alpha.0",
+		"@xlauko/base-util-lib": "^2.0.6-alpha.0",
 		"adm-zip": "^0.4.13",
 		"del": "^5.1.0",
 		"eslint": "^6.7.2",
